@@ -1,0 +1,49 @@
+h1 {color: #3a5743;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 0em;
+	}
+
+h2 {color: #19231a;
+	text-align: center;
+	margin-top: -1em;
+	font-family: 'Pacifico', cursive;
+}
+
+ul {text-align: center;
+}
+
+ul li {list-style: none;
+		display: inline-block;
+		padding-right: 40px;
+		
+}
+
+ul li a {
+		text-decoration: none;
+		font-size: 20px;
+		font-family: arial black;
+		color: white;
+		line-height: 50px;
+}
+
+nav {width: 100%;
+	height: 50px;
+	background-color: #87a330;
+}
+
+.container {display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+}
+
+img {width: 300px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
